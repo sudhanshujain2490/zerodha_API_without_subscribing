@@ -8,9 +8,9 @@ import pandas as pd
 # # You can use your Kite app in mobile
 # # But You can't login anywhere in 'kite.zerodha.com' website else this session will disconnected
 
-# user_id = "XIU527" # Login Id
-# password = "Sud@2620226_"      # Login password
-# twofa = "355572"         # Login Pin or TOTP
+# user_id = "" # Login Id
+# password = ""      # Login password
+# twofa = ""         # Login Pin or TOTP
 #
 # enctoken = get_enctoken(user_id, password, twofa)
 # kite = KiteApp(enctoken=enctoken)
@@ -19,7 +19,7 @@ import pandas as pd
 # # Than you can use login window of 'kite.zerodha.com' website Just don't logout from that window
 # # # Process shared on YouTube 'TradeViaPython'
 
-enctoken = "JYhDEHtt65xheXQsnH4Ktl3ZmpoaVH3Qn4m8oPAizSfa4l2Av1tInoNWC1zH7RZqMrPkJTuz8qQaEscJqujjCCW30ENJ0DrtkBWD/wWx3ftCyT1AbmUw3w=="
+enctoken = ""
 kite = KiteApp(enctoken=enctoken)
 
 # Basic calls
